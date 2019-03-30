@@ -14,12 +14,15 @@ public class EstrategiaLecturaBasic implements EstrategiaLectura {
 
     public EstrategiaLecturaBasic(String fitxer, String separador) throws IOException{
         this.nomFitxer = fitxer;
-        flux = new Scanner(new File(fitxer));
+        this.flux = new Scanner(new File(fitxer));
         this.separador = separador;
     }
 
     @Override
     public Registre llegir() {
+        if(!flux.hasNextLine()){
+            return null;
+        }
         String camps[] = flux.nextLine().split(separador);
         return new Registre(camps[0], Float.valueOf(camps[1]));
     }

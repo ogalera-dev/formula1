@@ -33,16 +33,19 @@ public class Lector extends Thread{
 
     @Override
     public void run(){
+        Log.F1.debug("Lector iniciat ["+lector.toString()+"]");
         try{
             while(!parat){
                 contingut = new LinkedList<>();
                 Registre registre;
                 while((registre = lector.llegir()) != null){
+                    Log.F1.debug("Llegit "+registre.toString());
                     contingut.add(registre);
                 }
+                Log.F1.debug(contingut.size()+" registres llegits");
                 //Fi de fitxer
                 escriptor.buidar(contingut);
-                sincronitzador.sincronitzar();
+                sincronitzador.sincLectura();
             }
             Log.F1.debug("El thread "+Thread.currentThread().getName()+" ha acabat");
         }catch(SincronitzacioException se){
