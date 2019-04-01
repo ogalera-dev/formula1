@@ -1,7 +1,12 @@
 package configuracio;
 
+import configuracio.excepcions.ConfiguracioException;
+
 import java.util.Properties;
 
+/**
+ * Configuració principal de l'aplicació.
+ */
 public final class Configurador {
     public final String directoriEntrada; //<Ruta del directori que conté els fitxers generats pels sensors.
     public final String directoriSortida; //<Ruta del directori on es generaran els fitxers de sortida.
@@ -9,21 +14,27 @@ public final class Configurador {
     public final long segonsLectura; //<Nombre de segons que hi ha entre cada lectura dels fitxers d'entrada, 10 per defecte.
     public final String separadorEntrada; //<Caràcter utilitzat com a separador en els fitxers d'entrada.
     public final String separadorSortida; //<Caràcter utilitzat com a separador en els fitxers de sortida.
+    public final String configuracioGenerador; //<Ruta del fitxer de configuració del generador (per fer simulacions...)
 
+    /**
+     * Crea la configuració.
+     * @param propietats Fitxer amb les propietats que crearà la configuració.
+     * @throws ConfiguracioException Si alguna de les propietats necessaries no existeix.
+     */
     public Configurador(Properties propietats) throws ConfiguracioException {
         directoriEntrada = propietats.getProperty("f1.directori.entrada");
         if(directoriEntrada == null || directoriEntrada.length() == 0){
-            throw new ConfiguracioException("La propietat f1.directori.entrada especifica el directori que conté els fitxers d'entra i es obligatori");
+            throw new ConfiguracioException("La propietat [f1.directori.entrada] especifica el directori que conté els fitxers d'entra i es obligatori");
         }
 
         directoriSortida = propietats.getProperty("f1.directori.sortida");
         if(directoriSortida == null || directoriSortida.length() == 0){
-            throw new ConfiguracioException("La propietat f1.directori.sortida especifica el directori que contindrà els fitxes de sortida i es obligatori");
+            throw new ConfiguracioException("La propietat [f1.directori.sortida] especifica el directori que contindrà els fitxes de sortida i es obligatori");
         }
 
         nomFitxerSortia = propietats.getProperty("f1.nom.fitxer.sortida");
         if(nomFitxerSortia == null || nomFitxerSortia.length() == 0){
-            throw new ConfiguracioException("La propietat f1.nom.fitxer.sortida especifica el nom que han de tenir els fitxers de sortida i es obligatori");
+            throw new ConfiguracioException("La propietat [f1.nom.fitxer.sortida] especifica el nom que han de tenir els fitxers de sortida i es obligatori");
         }
 
         segonsLectura = Long.parseLong(propietats.getProperty("f1.segons.lectura", "10"));
@@ -34,6 +45,8 @@ public final class Configurador {
         separadorEntrada = propietats.getProperty("f1.separador.entrada", ",");
 
         separadorSortida = propietats.getProperty("f1.separador.sortida", ",");
+
+        configuracioGenerador = propietats.getProperty("f1.generador");
     }
 
     @Override
@@ -45,6 +58,7 @@ public final class Configurador {
                 ", segonsLectura=" + segonsLectura +
                 ", separadorEntrada='" + separadorEntrada + '\'' +
                 ", separadorSortida='" + separadorSortida + '\'' +
+                ", configuracioGenerador=" + configuracioGenerador +
                 '}';
     }
 }

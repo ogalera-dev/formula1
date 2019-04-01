@@ -2,37 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1c5709d-5e69-449e-89f6-9a6d6d09eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generador/Generador.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generador/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generador/src/main/java/Generador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/Execucio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/Executador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/excepcions/ExecucioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/configuracio/excepcions/ConfiguracioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generador/Generador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generador/GeneradorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generador/configuracio/Configurador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generador/configuracio/ConfiguradorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/ConstructorLectura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/ConstructurEstrategiaLectura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/EstrategiaLecturaBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/sortida/Escriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/sortida/estrategies/EstrategiaEscriptura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/sortida/estrategies/EstrategiaEscripturaBasica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Parametres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generador.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProvesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/adaptadors/Adaptador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorSortida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/carregadors/Carregador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/DadesDesiguals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/MenysDades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/MesDades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logica/es/entrada/ConstructorLecturaBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logica/es/entrada/EstrategiaLecturaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logica/es/sortida/EstrategiaEscripturaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/t1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/t2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/in/SpeedSensor1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/in/SpeedSensor1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/in/SpeedSensor2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/in/SpeedSensor2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/out/.~lock.AverageSpeed_0.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_4.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuracio/ConfiguracioException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/configuracio/Configurador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuracio/Configurador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/entrada/Lector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/sortida/Escriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/sortida/Escriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/Lector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLectura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/EstrategiaLectura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/sortida/Escriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logica/Execucio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/Execucio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logica/Executador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/Executador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logica/excepcions/ExecucioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/excepcions/ExecucioException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Registre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Registre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sincronitzacio/Sincronitzador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sincronitzacio/Sincronitzador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sincronitzacio/excepcions/SincronitzacioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sincronitzacio/excepcions/SincronitzacioException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Formats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Formats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/f1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/f1.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuracio/ConfiguracioException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/configuracio/Configurador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuracio/Configurador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/Lector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/entrada/Lector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/estrategies/EstrategiaLecturaBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/entrada/estrategies/EstrategiaLecturaBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor$Treballador$RegistreAcumulat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor$Treballador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/Lector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/estrategies/EstrategiaLectura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/estrategies/EstrategiaLecturaBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor$RegistreAcumulat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/f1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/f1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logica/Execucio$Estat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/Execucio$Estat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logica/Execucio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/Execucio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logica/Executador$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logica/Executador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/Executador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logica/excepcions/ExecucioException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/excepcions/ExecucioException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/models/Registre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Registre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sincronitzacio/Sincronitzador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sincronitzacio/Sincronitzador.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sincronitzacio/SincronitzadorBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sincronitzacio/SincronitzadorBasic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sincronitzacio/excepcions/SincronitzacioException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sincronitzacio/excepcions/SincronitzacioException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Formats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Formats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generador/target/" />
@@ -43,16 +95,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generador/src/main/java/Generador.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProvesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="2160">
+              <caret line="148" column="45" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="45" />
               <folding>
-                <element signature="e#69#70#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generador.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/f1.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/generador/Generador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1635">
+              <caret line="113" column="65" selection-start-line="113" selection-start-column="65" selection-end-line="113" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/t1.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="31" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/t2.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -70,6 +204,12 @@
     <findStrings>
       <find>java.</find>
       <find>next</find>
+      <find>append</find>
+      <find>Llegits</find>
+      <find>\n</find>
+      <find>1548154670</find>
+      <find>synchronized</find>
+      <find>Lector avisa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,20 +218,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/logica/excepcions/ExecucioException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logica/Execucio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaBasic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Registre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sincronitzacio/excepcions/SincronitzacioException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sincronitzacio/Sincronitzador.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logica/Executador.java" />
-        <option value="$PROJECT_DIR$/src/main/java/configuracio/Configurador.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Parametres.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Formats.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Desti.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/sortida/estrategies/EstrategiaEscripturaBasica.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/sortida/estrategies/EstrategiaEscriptura.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Escriptor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/sortida/Escriptor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/sortida/EstrategiaEscriptura.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/entrada/EstrategiaLectura.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/ConstructurEstrategia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/Adaptador.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/AdaptadorEntrada.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/Carregador.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/adaptadors/AdaptadorEntrada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/es/entrada/Lector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/entrada/ConstructuraEstrategiaLecturaBasic.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/adaptadors/AdaptadorSortida.java" />
         <option value="$PROJECT_DIR$/src/main/java/es/sortida/Escriptor.java" />
-        <option value="$PROJECT_DIR$/Generador/src/main/java/Generador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaBasic.java" />
+        <option value="$PROJECT_DIR$/src/test/java/excepcions/TestException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/excepcions/DadesDesiguals.java" />
+        <option value="$PROJECT_DIR$/src/test/java/excepcions/MesDades.java" />
+        <option value="$PROJECT_DIR$/src/test/java/excepcions/MenysDades.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adaptadors/Adaptador.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorEntrada.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorSortida.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/sortida/EstrategiaEscripturaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/entrada/ConstructorLecturaMultiple.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/entrada/ConstructorLecturaMultiple5s.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/entrada/ConstructorLecturaMultiple10s.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/t1.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/es/entrada/EstrategiaLecturaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/carregadors/Carregador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/ConstructurEstrategiaLectura.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/ConstructorLectura.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/Executador.java" />
+        <option value="$PROJECT_DIR$/src/test/java/es/entrada/ConstructorLecturaBasic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/Execucio.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/t2.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Proves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/es/sortida/estrategies/EstrategiaEscripturaBasica.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generador.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/generador/Generador.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/f1.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProvesTest.java" />
       </list>
     </option>
   </component>
@@ -101,6 +278,33 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="surefire" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="575" />
@@ -116,8 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,32 +330,6 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="Generador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="Generador" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="Generador" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="Generador" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,7 +351,72 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="configuracio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configuracio" type="462c0819:PsiDirectoryNode" />
+              <item name="excepcions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generador" type="462c0819:PsiDirectoryNode" />
+              <item name="configuracio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sincronitzacio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -183,19 +424,46 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553969002737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554132978170" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="es" />
+      <recent name="es.sortida" />
+      <recent name="es.entrada" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,7 +477,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Generador">
+  <component name="RunManager" selected="JUnit.Test1">
     <configuration name="Executar" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="test" />
@@ -217,16 +485,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generador" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Generador" />
-      <module name="Generador" />
+    <configuration name="Test1" type="JUnit" factoryName="JUnit">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProvesTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Executar" />
-      <item itemvalue="Application.Generador" />
+      <item itemvalue="JUnit.Test1" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -256,42 +528,87 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test1 - 2019.04.01 at 15h 08m 37s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 15h 09m 52s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 15h 09m 58s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 15h 11m 40s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 15h 11m 46s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 15h 15m 26s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 15h 49m 44s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 16h 14m 50s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 16h 17m 56s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.04.01 at 16h 44m 23s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26173428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32970452" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32970452" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6858476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968896" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32970452" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32970452" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32970452" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32975337" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
         <watch expression="flux.nextLine()" language="JAVA" />
+        <watch expression="flux.hasNextLine()" language="JAVA" />
+        <watch expression="Main.class.getResourceAsStream(&quot;f1.properties&quot;)" language="JAVA" />
+        <watch expression="Main.class.getResourceAsStream(&quot;generador.properties&quot;)" language="JAVA" />
+        <watch expression="Thread.currentThread().getName()" language="JAVA" />
         <watch expression="flux.hasNextLine()" language="JAVA" />
       </configuration>
     </watches-manager>
@@ -304,6 +621,21 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+        <expression-string>Thread.currentThread().getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Main.class.getResourceAsStream(&quot;generador.properties&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Main.class.getResourceAsStream(&quot;f1.properties&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>flux.nextLine()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -311,66 +643,311 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Generador/src/main/java/Generador.java" />
+    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="1177">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/io/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="206" column="11" selection-start-line="206" selection-start-column="11" selection-end-line="206" selection-end-column="11" />
+        <state relative-caret-position="562">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaFactory.java">
+    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="288">
+          <caret line="2275" column="34" selection-start-line="2275" selection-start-column="28" selection-end-line="2275" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLectura.java">
+    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="1048">
+          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generador/configuracio/ConfiguradorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generador/GeneradorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logica/excepcions/ExecucioException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        <state relative-caret-position="150">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
           <folding>
+            <element signature="e#123#124#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sincronitzacio/excepcions/SincronitzacioException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Registre.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Formats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Parametres.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="2215" column="24" selection-start-line="2215" selection-start-column="24" selection-end-line="2215" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generador/configuracio/Configurador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaBasic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/log/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/excepcions/DadesDesiguals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/excepcions/TestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/excepcions/MesDades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/excepcions/MenysDades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adaptadors/Adaptador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorSortida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorEntrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/es/entrada/ConstructorLecturaMultiple10s.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/logica/es/entrada/ConstructorLecturaBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/carregadors/Carregador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/logica/es/entrada/EstrategiaLecturaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/logica/es/sortida/EstrategiaEscripturaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/configuracio/excepcions/ConfiguracioException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/configuracio/Configurador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/entrada/Lector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/EstrategiaLecturaBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/EstrategiaLectura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/ConstructorLectura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/ConstructurEstrategiaLectura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/sortida/Escriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5936#5937#0" expanded="true" />
+            <element signature="e#6020#6021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/sortida/estrategies/EstrategiaEscriptura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/es/sortida/estrategies/EstrategiaEscripturaBasica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -379,106 +956,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logica/Execucio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="780">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Formats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generador/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/sortida/Escriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-            <element signature="e#2056#2057#0" expanded="true" />
-            <element signature="e#3472#3473#0" expanded="true" />
-            <element signature="e#3501#3502#0" expanded="true" />
-            <element signature="e#4648#4649#0" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#4802#4803#0" expanded="true" />
-            <element signature="e#4879#4880#0" expanded="true" />
-            <element signature="e#4961#4962#0" expanded="true" />
-            <element signature="e#5029#5030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/configuracio/Configurador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logica/Executador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="42" column="99" selection-start-line="42" selection-start-column="99" selection-end-line="42" selection-end-column="99" />
+        <state relative-caret-position="416">
+          <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Registre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sincronitzacio/Sincronitzador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state relative-caret-position="525">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sincronitzacio/excepcions/SincronitzacioException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generador/Generador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="113" column="65" selection-start-line="113" selection-start-column="65" selection-end-line="113" selection-end-column="65" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/entrada/Lector.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/t2.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="405">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generador/src/main/java/Generador.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="780">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProvesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="148" column="45" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="45" />
           <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/f1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/t1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generador.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -534,7 +1115,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Generador</last-edited>
+          <last-edited>test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
