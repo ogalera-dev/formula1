@@ -1,27 +1,27 @@
 # Sistema de monitoratge *Formula 1*
 
-##Descripció del sistema
+## Descripció del sistema
 Sistema de seguiment per les dades generades a través de diferents **sensors de velocitat** per cotxes de **formula 1**.
 
 El sistema ha de ser capaç de monitorar diferents fonts de dades (fitxers per defecte) on diversos sensors aniran registrant informació periòdicament (cada 10 segons s'agafarà una mostra) i asíncronament en  **format [timestamp,velocitat]** . Un cop llegides les dades i per cada cicle, s'agruparan les dades en base a l'instant de temps que s'han recollit (nombre de segons des del 1 de Gener de 1970) i es calcularà la mitja de la velocitat del cotxe.
 
-##Arquitectura
-###Lectors
+## Arquitectura
+### Lectors
 Es crea un **fil d'execució per a cada un dels fitxers** que hi ha a la carpeta on els sensors generen les dades, cada fil s'encarrega de monitorar el contingut d'un dels sensors. La lectura s'efectua durant l'etapa de lectura i per cada cicle (la separació temporal entre cicles és de 10 segons per defecte).
 
-###Escriptors
+### Escriptors
 Es crea **un fil d'execució** responsable de rebre les dades llegides per cada lector, agrupar-les fer els càlculs i efectuar l'escriptura en un fitxer nou per cada fase d'escriptura de cada cicle.
 
-###Sincronitzador
+### Sincronitzador
 És el responsable de coordinar les diferents fases del programa (només hi ha un sincronitzador). Cada cicle està compost per les fases de: `Lectura`, `Escriptura` i `Espera` 
 
 Seqüencia:
 >  `Lectura` -> `Escriptura` -> `Espera` -> `Lectura ` -> `...`
 
-###Generadors de dades [EXTRA]
+### Generadors de dades [EXTRA]
 Per tal de poder fer **proves realistes**, també s'ha desenvolupat un **sistema generador de dades**, on es **crea un fil d'execució per cada fitxer on es reben les dades** (lector) i s'injecten dades pseudoaleatòries (cada segon per defecte). Això permet simular de forma realista l'impacte que tindria l'ús de sensors reals en l'aplicació.
 
-###Configuració
+### Configuració
 Per configurar l'aplicació es poden utilitzar dos fitxers de propietats diferents:
 
 - `f1.properties`, amb:
@@ -41,7 +41,7 @@ Per configurar l'aplicació es poden utilitzar dos fitxers de propietats diferen
     - *generador.velocitat.variacio*: Desviació en les mostres (**50km/h** per defecte).
     - *generador.interval.segons*: Nombre de segons entre cada generació (**1** per defecte)
 
-###Notes de disseny
+### Notes de disseny
 S'ha dissenyat i desenvolupat l'aplicació tenint en compte els següents punts:
 
 - **Eficiència** general del sistema.
@@ -57,7 +57,7 @@ $java -jar compilat.jar
 
 **Nota:** Això iniciarà l'execució amb tots els paràmetres per defecte i per finalitzar-la cal matar el procés (Ctrl+C)
 
-###Paràmetres
+### Paràmetres
 Es poden passar diferents paràmetres per configurar l'execució del programa, aquests paràmetres són:
 ```
  -h: Mostra l'ajuda.
@@ -78,5 +78,5 @@ java -jar compilat.jar -c nova_configuracio.properties
 java -jar compilat.jar -c nova_configuracio.properties -l configuracio_log.xml
 ```
 
-##Com executar les proves?
+## Com executar les proves?
 Per això només cal executar la comanda `$mvn clean test` en el directori arrel del projecte.
