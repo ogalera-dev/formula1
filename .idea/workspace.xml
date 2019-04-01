@@ -2,89 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1c5709d-5e69-449e-89f6-9a6d6d09eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuracio/excepcions/ConfiguracioException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generador/Generador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generador/GeneradorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generador/configuracio/Configurador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generador/configuracio/ConfiguradorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/ConstructorLectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/ConstructurEstrategiaLectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/EstrategiaLecturaBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/sortida/Escriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/sortida/estrategies/EstrategiaEscriptura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logica/es/sortida/estrategies/EstrategiaEscripturaBasica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Parametres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generador.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProvesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/adaptadors/Adaptador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorEntrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/adaptadors/AdaptadorSortida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/carregadors/Carregador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/DadesDesiguals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/MenysDades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/MesDades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/excepcions/TestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logica/es/entrada/ConstructorLecturaBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logica/es/entrada/EstrategiaLecturaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logica/es/sortida/EstrategiaEscripturaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/t1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/t2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/in/SpeedSensor1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/in/SpeedSensor1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/in/SpeedSensor2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/in/SpeedSensor2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/out/.~lock.AverageSpeed_0.csv#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dades/out/AverageSpeed_4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dades/out/AverageSpeed_4.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuracio/ConfiguracioException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuracio/Configurador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuracio/Configurador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/Lector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLectura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/es/entrada/estrategies/EstrategiaLectura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/entrada/estrategies/EstrategiaLecturaBasic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/sortida/Escriptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/log/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logica/Execucio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/Execucio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logica/Executador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/Executador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logica/excepcions/ExecucioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/excepcions/ExecucioException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Registre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Registre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sincronitzacio/Sincronitzador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sincronitzacio/Sincronitzador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sincronitzacio/excepcions/SincronitzacioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sincronitzacio/excepcions/SincronitzacioException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Formats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Formats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/f1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/f1.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configuracio/ConfiguracioException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configuracio/Configurador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuracio/Configurador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/Lector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/estrategies/EstrategiaLectura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/entrada/estrategies/EstrategiaLecturaBasic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor$RegistreAcumulat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/sortida/Escriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/f1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/f1.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logica/Execucio$Estat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/Execucio$Estat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logica/Execucio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/Execucio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logica/Executador$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logica/Executador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/Executador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logica/excepcions/ExecucioException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logica/excepcions/ExecucioException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Registre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Registre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sincronitzacio/SincronitzadorBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sincronitzacio/SincronitzadorBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sincronitzacio/excepcions/SincronitzacioException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sincronitzacio/excepcions/SincronitzacioException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Formats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Formats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Formula1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userzoom.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generador/target/" />
@@ -113,7 +38,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/generador.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -126,19 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/f1.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generador/Generador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="113" column="65" selection-start-line="113" selection-start-column="65" selection-end-line="113" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -162,33 +75,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sincronitzacio/SincronitzadorBasic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Formula1.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compila.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -266,9 +181,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/generador.properties" />
         <option value="$PROJECT_DIR$/src/main/java/generador/Generador.java" />
         <option value="$PROJECT_DIR$/src/main/resources/f1.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProvesTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -284,21 +199,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Formula1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Formula1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Formula1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Formula1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="surefire" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
@@ -324,119 +239,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Formula1" type="b2602c69:ProjectViewProjectNode" />
               <item name="userzoom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configuracio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configuracio" type="462c0819:PsiDirectoryNode" />
-              <item name="excepcions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generador" type="462c0819:PsiDirectoryNode" />
-              <item name="configuracio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sincronitzacio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userzoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Formula1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -447,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554132978170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554136597813" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -480,18 +288,65 @@
   <component name="RunManager" selected="JUnit.Test1">
     <configuration name="Executar" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="test" />
+      <module name="Formula1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test1" type="JUnit" factoryName="JUnit">
-      <module name="test" />
+      <module name="Formula1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProvesTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Formula1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Formula1" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -595,7 +450,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32975337" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32975337" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -643,28 +498,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generador/src/main/java/Generador.java" />
-    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1177">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="2275" column="34" selection-start-line="2275" selection-start-column="28" selection-end-line="2275" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1048">
@@ -1025,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProvesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
@@ -1045,7 +871,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/f1.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="33" />
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1062,6 +888,33 @@
           <caret selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userzoom.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formula1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compila.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1115,7 +968,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test</last-edited>
+          <last-edited>Formula1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
