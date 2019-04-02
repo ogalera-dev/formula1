@@ -48,7 +48,7 @@ S'ha dissenyat i desenvolupat l'aplicació tenint en compte els següents punts:
 - **Facilitat per configurar** el comportament durant d'execució
 - **Facilitat per incorporar nous generadors / consumidors de dades** (sockets...)
 
-## Com executar el programa?
+##Com executar el programa?
 És tan senzill com descarregar el projecte (`$git clone https://github.com/ogalera-dev/userzoom.git`) i executar l'script `$compila.sh`. Això generarà la carpeta `compilat/` amb el fitxer `compilat.jar` (aquest *.jar* ja conté totes les dependències) i només cal accedir al directori `compilat` i iniciar l'execució amb la comanda 
 
 ```
